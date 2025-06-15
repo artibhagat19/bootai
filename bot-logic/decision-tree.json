@@ -1,0 +1,282 @@
+{
+    "start": {
+      "message": "Hello! What would you like to know?",
+      "options": [
+        { "label": "About Us", "next": "about" },
+        { "label": "Contact Info", "next": "contact" },
+        { "label": "Courses Offered", "next": "courses" },
+        { "label": "How to Apply", "next": "apply" }
+      ]
+    },
+    "about": {
+      "message": "We are here to help you learn tech skills and grow your career.",
+      "options": [
+        { "label": "Our Mission", "next": "mission" },
+        { "label": "Our Team", "next": "team" },
+        { "label": "Success Stories", "next": "stories" },
+        { "label": "Back", "next": "start" }
+      ]
+    },
+    "contact": {
+      "message": "You can email us at support@example.com or call +91-1234567890.",
+      "options": [
+        { "label": "Office Location", "next": "location" },
+        { "label": "Working Hours", "next": "hours" },
+        { "label": "Support Options", "next": "support" },
+        { "label": "Back", "next": "start" }
+      ]
+    },
+    "courses": {
+      "message": "We offer courses in Web Development, Python, Data Science, and Communication Skills.",
+      "options": [
+        { "label": "Web Development", "next": "web_dev" },
+        { "label": "Data Science", "next": "data_science" },
+        { "label": "Python Programming", "next": "python" },
+        { "label": "Back", "next": "start" }
+      ]
+    },
+    "apply": {
+      "message": "You can apply by visiting our official website and filling the registration form.",
+      "options": [
+        { "label": "Eligibility Criteria", "next": "eligibility" },
+        { "label": "Documents Needed", "next": "documents" },
+        { "label": "Fees", "next": "fees" },
+        { "label": "Back", "next": "start" }
+      ]
+    },
+    "web_dev": {
+      "message": "Covers HTML, CSS, JavaScript, and React with project-based learning.",
+      "options": [
+        { "label": "Duration", "next": "duration" },
+        { "label": "Certification", "next": "certificate" },
+        { "label": "Projects Included", "next": "projects" },
+        { "label": "Back", "next": "courses" }
+      ]
+    },
+    "data_science": {
+      "message": "Learn Python, Pandas, Machine Learning, and Data Visualization.",
+      "options": [
+        { "label": "Duration", "next": "duration" },
+        { "label": "Prerequisites", "next": "requirements" },
+        { "label": "Career Options", "next": "job_opportunities" },
+        { "label": "Back", "next": "courses" }
+      ]
+    },
+    "python": {
+      "message": "Start from scratch and go up to automation and web scripting.",
+      "options": [
+        { "label": "Why Learn Python?", "next": "why_python" },
+        { "label": "Real-World Uses", "next": "python_uses" },
+        { "label": "Assessment Format", "next": "assessment" },
+        { "label": "Back", "next": "courses" }
+      ]
+    },
+    "mission": {
+      "message": "Our mission is to empower youth with free access to tech education.",
+      "options": [
+        { "label": "Back to About", "next": "about" },
+        { "label": "Start Over", "next": "start" },
+        { "label": "Contact Info", "next": "contact" },
+        { "label": "Courses", "next": "courses" }
+      ]
+    },
+    "team": {
+      "message": "We are a diverse team of developers, educators, and volunteers.",
+      "options": [
+        { "label": "Back to About", "next": "about" },
+        { "label": "Meet Mentors", "next": "mentors" },
+        { "label": "Join Us", "next": "apply" },
+        { "label": "Start", "next": "start" }
+      ]
+    },
+    "stories": {
+      "message": "Many learners have built successful careers after learning here.",
+      "options": [
+        { "label": "Read Stories", "next": "blog" },
+        { "label": "Career Support", "next": "career_support" },
+        { "label": "Jobs", "next": "job_opportunities" },
+        { "label": "Back", "next": "about" }
+      ]
+    },
+    "location": {
+      "message": "We are based in Delhi, India but offer remote learning nationwide.",
+      "options": [
+        { "label": "Contact Info", "next": "contact" },
+        { "label": "Working Hours", "next": "hours" },
+        { "label": "Support", "next": "support" },
+        { "label": "Back", "next": "start" }
+      ]
+    },
+    "hours": {
+      "message": "We are available Mon–Sat, 10am to 6pm.",
+      "options": [
+        { "label": "Talk to Team", "next": "support" },
+        { "label": "Apply Now", "next": "apply" },
+        { "label": "Back to Contact", "next": "contact" },
+        { "label": "Home", "next": "start" }
+      ]
+    },
+    "support": {
+      "message": "You can reach out via email, phone, or join our student community.",
+      "options": [
+        { "label": "Community", "next": "community" },
+        { "label": "FAQs", "next": "faq" },
+        { "label": "Back to Start", "next": "start" },
+        { "label": "Courses", "next": "courses" }
+      ]
+    },
+    "fees": {
+      "message": "All our learning programs are completely free of cost.",
+      "options": [
+        { "label": "Why Free?", "next": "why_free" },
+        { "label": "Back to Apply", "next": "apply" },
+        { "label": "Start", "next": "start" },
+        { "label": "Courses", "next": "courses" }
+      ]
+    },
+    "why_free": {
+      "message": "We are supported by donors and partners to offer free education to all.",
+      "options": [
+        { "label": "Apply Now", "next": "apply" },
+        { "label": "Back", "next": "fees" },
+        { "label": "Start", "next": "start" },
+        { "label": "Courses", "next": "courses" }
+      ]
+    },
+    "eligibility": {
+      "message": "You must be 15+ years old and have basic reading/writing skills.",
+      "options": [
+        { "label": "Apply Now", "next": "apply" },
+        { "label": "Back to Apply", "next": "apply" },
+        { "label": "Start", "next": "start" },
+        { "label": "Courses", "next": "courses" }
+      ]
+    },
+    "documents": {
+      "message": "A photo ID and basic education certificate are preferred.",
+      "options": [
+        { "label": "Back to Apply", "next": "apply" },
+        { "label": "Start", "next": "start" },
+        { "label": "Courses", "next": "courses" },
+        { "label": "FAQs", "next": "faq" }
+      ]
+    },
+    "mentors": {
+      "message": "Our mentors guide, teach, and support you throughout the journey.",
+      "options": [
+        { "label": "Back", "next": "team" },
+        { "label": "Courses", "next": "courses" },
+        { "label": "Contact", "next": "contact" },
+        { "label": "Start", "next": "start" }
+      ]
+    },
+    "projects": {
+      "message": "You’ll build real websites, apps, or data dashboards in each course.",
+      "options": [
+        { "label": "Back to Web Dev", "next": "web_dev" },
+        { "label": "View Certificate", "next": "certificate" },
+        { "label": "Start", "next": "start" },
+        { "label": "Courses", "next": "courses" }
+      ]
+    },
+    "duration": {
+      "message": "Courses take 3 to 6 months, depending on your speed and schedule.",
+      "options": [
+        { "label": "Assessment Details", "next": "assessment" },
+        { "label": "Back", "next": "web_dev" },
+        { "label": "Start", "next": "start" },
+        { "label": "Courses", "next": "courses" }
+      ]
+    },
+    "certificate": {
+      "message": "You get a digital certificate after completing quizzes and final project.",
+      "options": [
+        { "label": "Back", "next": "web_dev" },
+        { "label": "Courses", "next": "courses" },
+        { "label": "Contact", "next": "contact" },
+        { "label": "Start", "next": "start" }
+      ]
+    },
+    "job_opportunities": {
+      "message": "We connect you with hiring partners for internships and jobs.",
+      "options": [
+        { "label": "Career Support", "next": "career_support" },
+        { "label": "Resume Help", "next": "resume" },
+        { "label": "Back", "next": "data_science" },
+        { "label": "Start", "next": "start" }
+      ]
+    },
+    "assessment": {
+      "message": "We use MCQs, code submissions, and reviews to assess your progress.",
+      "options": [
+        { "label": "Back", "next": "python" },
+        { "label": "Start", "next": "start" },
+        { "label": "Courses", "next": "courses" },
+        { "label": "Certificate", "next": "certificate" }
+      ]
+    },
+    "why_python": {
+      "message": "Python is beginner-friendly and used in many industries.",
+      "options": [
+        { "label": "Back", "next": "python" },
+        { "label": "Courses", "next": "courses" },
+        { "label": "Start", "next": "start" },
+        { "label": "Apply", "next": "apply" }
+      ]
+    },
+    "python_uses": {
+      "message": "Used in web apps, data analysis, AI, automation, and more.",
+      "options": [
+        { "label": "Back", "next": "python" },
+        { "label": "Courses", "next": "courses" },
+        { "label": "Start", "next": "start" },
+        { "label": "Job Roles", "next": "job_opportunities" }
+      ]
+    },
+    "career_support": {
+      "message": "We help with LinkedIn, resume building, and mock interviews.",
+      "options": [
+        { "label": "Back", "next": "stories" },
+        { "label": "Start", "next": "start" },
+        { "label": "Apply", "next": "apply" },
+        { "label": "Courses", "next": "courses" }
+      ]
+    },
+    "community": {
+      "message": "Join our peer-support groups on Discord or Telegram.",
+      "options": [
+        { "label": "Back", "next": "support" },
+        { "label": "Start", "next": "start" },
+        { "label": "Apply", "next": "apply" },
+        { "label": "FAQs", "next": "faq" }
+      ]
+    },
+    "faq": {
+      "message": "Frequently Asked Questions: What is the fee? Is there a test? How long is the course?",
+      "options": [
+        { "label": "Back", "next": "start" },
+        { "label": "Courses", "next": "courses" },
+        { "label": "Apply", "next": "apply" },
+        { "label": "Contact", "next": "contact" }
+      ]
+    },
+    "blog": {
+      "message": "Read inspiring stories of learners on our blog at blog.example.com.",
+      "options": [
+        { "label": "Back", "next": "stories" },
+        { "label": "Apply", "next": "apply" },
+        { "label": "Courses", "next": "courses" },
+        { "label": "Start", "next": "start" }
+      ]
+    },
+    "resume": {
+      "message": "We teach you how to write impactful resumes with examples and review support.",
+      "options": [
+        { "label": "Back", "next": "career_support" },
+        { "label": "Contact", "next": "contact" },
+        { "label": "Start", "next": "start" },
+        { "label": "Courses", "next": "courses" }
+      ]
+    }
+  }
+  
