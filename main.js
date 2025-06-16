@@ -8,14 +8,14 @@ const historyRoutes = require('./routers/history'); // optional
 
 const app = express();
 
-// Middleware
+
 app.use(cors());
 app.use(bodyParser.json());
 
-// Serve static assets in root (like index.html, JS, CSS)
+
 app.use(express.static(__dirname));
 
-// Load decision tree
+
 const decisionTreePath = path.join(__dirname, 'bot-logic', 'decision-tree.json');
 let decisionTree = {};
 try {
@@ -25,7 +25,7 @@ try {
   console.error('❌ Error loading decision tree:', err.message);
 }
 
-// Chat endpoint
+
 app.post('/api/chat', (req, res) => {
   const node = req.body.node;
   const response = decisionTree[node] || {
@@ -35,7 +35,7 @@ app.post('/api/chat', (req, res) => {
   res.json(response);
 });
 
-// Save history endpoint
+
 app.post('/api/save-history', (req, res) => {
   const historyPath = path.join(__dirname, 'chat-history.json');
   const newEntry = req.body;
@@ -50,10 +50,10 @@ app.post('/api/save-history', (req, res) => {
   res.json({ status: 'ok' });
 });
 
-// Optional custom routes
+
 app.use('/api', historyRoutes);
 
-// Serve index.html directly
+
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
